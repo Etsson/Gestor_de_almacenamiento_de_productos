@@ -1,0 +1,83 @@
+/* ========================================
+   ESTILOS CHATFX - Sistema de Chat
+   ======================================== */
+
+/* Estilos generales */
+* {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* TextArea - Área de chat */
+.text-area {
+    -fx-control-inner-background: #FAFAFA;
+    -fx-font-family: "Consolas", "Courier New", monospace;
+    -fx-font-size: 12px;
+    -fx-text-fill: #212121;
+    -fx-padding: 10;
+}
+
+/* TextField - Campo de entrada */
+.text-field {
+    -fx-padding: 8;
+    -fx-font-size: 12;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-control-inner-background: #FFFFFF;
+}
+
+.text-field:focused {
+    -fx-border-color: #2196F3;
+    -fx-border-width: 2;
+}
+
+/* Botones */
+.button {
+    -fx-padding: 10 20 10 20;
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #1976D2;
+}
+
+.button:pressed {
+    -fx-background-color: #1565C0;
+}
+
+/* VBox y HBox */
+.vbox {
+    -fx-spacing: 15;
+    -fx-padding: 15;
+}
+
+.hbox {
+    -fx-spacing: 10;
+    -fx-padding: 10;
+}
+
+/* BorderPane */
+.border-pane {
+    -fx-padding: 5;
+}
+
+/* ScrollPane */
+.scroll-pane {
+    -fx-fit-to-width: true;
+}
+
+/* ScrollBar */
+.scroll-bar {
+    -fx-background-color: #F0F0F0;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+    -fx-padding: 0;
+}
